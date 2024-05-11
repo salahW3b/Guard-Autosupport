@@ -1,6 +1,6 @@
 const { Client, Intents, MessageActionRow, MessageButton, MessageEmbed } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
-
+//commit cette aprem en v14
 const COMMANDS = {
     1: {
         question: "Comment puis-je obtenir un bot perso ?",
